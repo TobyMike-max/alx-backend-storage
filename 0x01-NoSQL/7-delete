@@ -1,0 +1,2 @@
+// Script that deletes a specified attribute from school collection.
+db.school.deleteMany({name: "Holberton school"})
